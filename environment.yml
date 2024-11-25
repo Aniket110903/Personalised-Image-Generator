@@ -1,0 +1,17 @@
+name: lora_env
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tqdm
+  - pillow
+  - transformers
+  - accelerate
+  - matplotlib
+  - pip:
+      - streamlit
